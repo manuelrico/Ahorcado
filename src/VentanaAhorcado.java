@@ -56,9 +56,9 @@ public class VentanaAhorcado extends javax.swing.JFrame {
     }
 
     private void pintaGuionesEnLabel(){
-        jLabel3.setText("");
+        jLabel1.setText("");
     for (int i=0; i<palabraOculta.length(); i++){
-          jLabel3.setText(jLabel3.getText() + "_ ");
+          jLabel1.setText(jLabel1.getText() + "_ ");
     }
     }
     
